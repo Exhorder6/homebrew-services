@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 group :test do
-  gem "activesupport"
+  gem "activesupport", ">= 6.1.7.1"
   gem "rspec"
   gem "simplecov"
 end
